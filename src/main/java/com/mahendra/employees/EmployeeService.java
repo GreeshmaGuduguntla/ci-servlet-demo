@@ -40,7 +40,7 @@ public class EmployeeService {
     }   
 
     public long addEmployee(Employee employee) {
-        employeeList.add(employee);
+        employeeList.add(employee)
         return employee.getId();
     }
 
